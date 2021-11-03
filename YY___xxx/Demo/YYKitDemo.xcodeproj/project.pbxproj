@@ -32,6 +32,7 @@
 		26143628273274BF00B355F8 /* WBStatusTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26143615273274BF00B355F8 /* WBStatusTimelineViewController.m */; };
 		26143629273274BF00B355F8 /* WBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26143617273274BF00B355F8 /* WBModel.m */; };
 		2614362A273274BF00B355F8 /* WBStatusHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2614361A273274BF00B355F8 /* WBStatusHelper.m */; };
+		2614362E273289A700B355F8 /* YYAsyncLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2614362D273289A700B355F8 /* YYAsyncLayer.m */; };
 		ABDC320D1BEAFB870012A159 /* YYTextTagExample.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDC320C1BEAFB870012A159 /* YYTextTagExample.m */; };
 		D9067DF11B975D3900F346EB /* YYTextExampleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D9067DF01B975D3900F346EB /* YYTextExampleHelper.m */; };
 		D9067DF41B9813B500F346EB /* YYTextEditExample.m in Sources */ = {isa = PBXBuildFile; fileRef = D9067DF31B9813B500F346EB /* YYTextEditExample.m */; };
@@ -164,7 +165,6 @@
 		D9B260921BEE79370038C00A /* YYTextUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B260311BEE79370038C00A /* YYTextUtilities.m */; };
 		D9B260931BEE79370038C00A /* YYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B260331BEE79370038C00A /* YYLabel.m */; };
 		D9B260941BEE79370038C00A /* YYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B260351BEE79370038C00A /* YYTextView.m */; };
-		D9B260951BEE79370038C00A /* YYAsyncLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B260381BEE79370038C00A /* YYAsyncLayer.m */; };
 		D9B260961BEE79370038C00A /* YYDispatchQueuePool.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B2603A1BEE79370038C00A /* YYDispatchQueuePool.m */; };
 		D9B260971BEE79370038C00A /* YYFileHash.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B2603C1BEE79370038C00A /* YYFileHash.m */; };
 		D9B260981BEE79370038C00A /* YYGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B2603E1BEE79370038C00A /* YYGestureRecognizer.m */; };
@@ -233,6 +233,8 @@
 		26143617273274BF00B355F8 /* WBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBModel.m; sourceTree = "<group>"; };
 		26143619273274BF00B355F8 /* WBStatusHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBStatusHelper.h; sourceTree = "<group>"; };
 		2614361A273274BF00B355F8 /* WBStatusHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBStatusHelper.m; sourceTree = "<group>"; };
+		2614362C273289A700B355F8 /* YYAsyncLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYAsyncLayer.h; sourceTree = "<group>"; };
+		2614362D273289A700B355F8 /* YYAsyncLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYAsyncLayer.m; sourceTree = "<group>"; };
 		ABDC320B1BEAFB870012A159 /* YYTextTagExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextTagExample.h; sourceTree = "<group>"; };
 		ABDC320C1BEAFB870012A159 /* YYTextTagExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextTagExample.m; sourceTree = "<group>"; };
 		D9067DEF1B975D3900F346EB /* YYTextExampleHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextExampleHelper.h; sourceTree = "<group>"; };
@@ -466,8 +468,6 @@
 		D9B260331BEE79370038C00A /* YYLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYLabel.m; sourceTree = "<group>"; };
 		D9B260341BEE79370038C00A /* YYTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextView.h; sourceTree = "<group>"; };
 		D9B260351BEE79370038C00A /* YYTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextView.m; sourceTree = "<group>"; };
-		D9B260371BEE79370038C00A /* YYAsyncLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYAsyncLayer.h; sourceTree = "<group>"; };
-		D9B260381BEE79370038C00A /* YYAsyncLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYAsyncLayer.m; sourceTree = "<group>"; };
 		D9B260391BEE79370038C00A /* YYDispatchQueuePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYDispatchQueuePool.h; sourceTree = "<group>"; };
 		D9B2603A1BEE79370038C00A /* YYDispatchQueuePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYDispatchQueuePool.m; sourceTree = "<group>"; };
 		D9B2603B1BEE79370038C00A /* YYFileHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFileHash.h; sourceTree = "<group>"; };
@@ -1018,6 +1018,8 @@
 		D9B2600B1BEE79370038C00A /* Text */ = {
 			isa = PBXGroup;
 			children = (
+				2614362C273289A700B355F8 /* YYAsyncLayer.h */,
+				2614362D273289A700B355F8 /* YYAsyncLayer.m */,
 				D9B260321BEE79370038C00A /* YYLabel.h */,
 				D9B260331BEE79370038C00A /* YYLabel.m */,
 				D9B260341BEE79370038C00A /* YYTextView.h */,
@@ -1095,8 +1097,6 @@
 				D9B2604A1BEE79370038C00A /* YYTimer.m */,
 				D9B2604B1BEE79370038C00A /* YYTransaction.h */,
 				D9B2604C1BEE79370038C00A /* YYTransaction.m */,
-				D9B260371BEE79370038C00A /* YYAsyncLayer.h */,
-				D9B260381BEE79370038C00A /* YYAsyncLayer.m */,
 				D9B260431BEE79370038C00A /* YYSentinel.h */,
 				D9B260441BEE79370038C00A /* YYSentinel.m */,
 				D9B260391BEE79370038C00A /* YYDispatchQueuePool.h */,
@@ -1251,7 +1251,6 @@
 				2614361D273274BF00B355F8 /* WBEmoticonInputView.m in Sources */,
 				D9971BB01B84D55A00A7B424 /* YYTextAttributeExample.m in Sources */,
 				D9B260A01BEE79370038C00A /* YYWeakProxy.m in Sources */,
-				D9B260951BEE79370038C00A /* YYAsyncLayer.m in Sources */,
 				D9B260691BEE79370038C00A /* UIScreen+YYAdd.m in Sources */,
 				D9B2607F1BEE79370038C00A /* NSObject+YYModel.m in Sources */,
 				D9B2608E1BEE79370038C00A /* YYTextAttribute.m in Sources */,
@@ -1273,6 +1272,7 @@
 				D9B260731BEE79370038C00A /* CALayer+YYWebImage.m in Sources */,
 				D9B260571BEE79370038C00A /* NSNumber+YYAdd.m in Sources */,
 				D9B260641BEE79370038C00A /* UIControl+YYAdd.m in Sources */,
+				2614362E273289A700B355F8 /* YYAsyncLayer.m in Sources */,
 				D9B260851BEE79370038C00A /* YYTextKeyboardManager.m in Sources */,
 				D97484D619CAAD2900F46DE1 /* main.m in Sources */,
 				D91A99591B5ACB9200EF3A3E /* YYWebImageExample.m in Sources */,
