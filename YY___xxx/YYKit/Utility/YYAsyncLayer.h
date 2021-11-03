@@ -22,7 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
  @discussion When the layer need update it's contents, it will ask the delegate 
  for a async display task to render the contents in a background queue.
  */
-@interface YYAsyncLayer : CALayer
+@interface YYAsyncLayer: CALayer
 /// Whether the render code is executed in background. Default is YES.
 @property BOOL displaysAsynchronously;
 @end
@@ -43,6 +43,9 @@ NS_ASSUME_NONNULL_BEGIN
  A display task used by YYAsyncLayer to render the contents in background queue.
  */
 @interface YYAsyncLayerDisplayTask : NSObject
+
+// 下面是，3 个任务
+
 
 /**
  This block will be called before the asynchronous drawing begins.

@@ -542,17 +542,17 @@
 		261435E5273272EB00B355F8 /* Twitter */ = {
 			isa = PBXGroup;
 			children = (
-				261435E6273272EB00B355F8 /* T1StatusCell.m */,
-				261435E7273272EB00B355F8 /* T1StatusLayout.h */,
-				261435E8273272EB00B355F8 /* T1Model.m */,
-				261435E9273272EB00B355F8 /* T1Helper.h */,
-				261435EA273272EB00B355F8 /* T1HomeTimelineItemsViewController.m */,
 				261435EB273272EB00B355F8 /* API Dump */,
-				261435F0273272EB00B355F8 /* T1StatusLayout.m */,
-				261435F1273272EB00B355F8 /* T1StatusCell.h */,
-				261435F2273272EB00B355F8 /* T1Model.h */,
+				261435E9273272EB00B355F8 /* T1Helper.h */,
 				261435F3273272EB00B355F8 /* T1Helper.m */,
 				261435F4273272EB00B355F8 /* T1HomeTimelineItemsViewController.h */,
+				261435EA273272EB00B355F8 /* T1HomeTimelineItemsViewController.m */,
+				261435F2273272EB00B355F8 /* T1Model.h */,
+				261435E8273272EB00B355F8 /* T1Model.m */,
+				261435F1273272EB00B355F8 /* T1StatusCell.h */,
+				261435E6273272EB00B355F8 /* T1StatusCell.m */,
+				261435E7273272EB00B355F8 /* T1StatusLayout.h */,
+				261435F0273272EB00B355F8 /* T1StatusLayout.m */,
 			);
 			path = Twitter;
 			sourceTree = "<group>";

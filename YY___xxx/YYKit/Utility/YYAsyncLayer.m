@@ -94,13 +94,21 @@ static dispatch_queue_t YYAsyncLayerGetReleaseQueue() {
     [_sentinel increase];
 }
 
+
+
+// 去标记当前的 run loop, 需要更新视图了
+
 - (void)setNeedsDisplay {
     [self _cancelAsyncDisplay];
     [super setNeedsDisplay];
 }
 
+
+// 子类重载，自定义绘制任务
+
 - (void)display {
-    super.contents = super.contents;
+//    疑惑之
+ //   super.contents = super.contents;
     [self _displayAsync:_displaysAsynchronously];
 }
 
@@ -120,7 +128,7 @@ static dispatch_queue_t YYAsyncLayerGetReleaseQueue() {
         if (task.willDisplay) task.willDisplay(self);
         YYSentinel *sentinel = _sentinel;
         int32_t value = sentinel.value;
-        BOOL (^isCancelled)() = ^BOOL() {
+        BOOL (^isCancelled)(void) = ^BOOL() {
             return value != sentinel.value;
         };
         CGSize size = self.bounds.size;
