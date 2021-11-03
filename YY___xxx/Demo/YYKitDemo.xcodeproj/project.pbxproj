@@ -16,6 +16,22 @@
 		261435FB273272EB00B355F8 /* twitter_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 261435EF273272EB00B355F8 /* twitter_2.json */; };
 		261435FC273272EB00B355F8 /* T1StatusLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 261435F0273272EB00B355F8 /* T1StatusLayout.m */; };
 		261435FD273272EB00B355F8 /* T1Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 261435F3273272EB00B355F8 /* T1Helper.m */; };
+		2614361B273274BF00B355F8 /* WBStatusComposeTextParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 26143602273274BF00B355F8 /* WBStatusComposeTextParser.m */; };
+		2614361C273274BF00B355F8 /* WBStatusComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26143603273274BF00B355F8 /* WBStatusComposeViewController.m */; };
+		2614361D273274BF00B355F8 /* WBEmoticonInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26143604273274BF00B355F8 /* WBEmoticonInputView.m */; };
+		2614361E273274BF00B355F8 /* weibo_3.json in Resources */ = {isa = PBXBuildFile; fileRef = 26143607273274BF00B355F8 /* weibo_3.json */; };
+		2614361F273274BF00B355F8 /* weibo_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 26143608273274BF00B355F8 /* weibo_2.json */; };
+		26143620273274BF00B355F8 /* weibo_5.json in Resources */ = {isa = PBXBuildFile; fileRef = 26143609273274BF00B355F8 /* weibo_5.json */; };
+		26143621273274BF00B355F8 /* weibo_4.json in Resources */ = {isa = PBXBuildFile; fileRef = 2614360A273274BF00B355F8 /* weibo_4.json */; };
+		26143622273274BF00B355F8 /* weibo_7.json in Resources */ = {isa = PBXBuildFile; fileRef = 2614360B273274BF00B355F8 /* weibo_7.json */; };
+		26143623273274BF00B355F8 /* weibo_6.json in Resources */ = {isa = PBXBuildFile; fileRef = 2614360C273274BF00B355F8 /* weibo_6.json */; };
+		26143624273274BF00B355F8 /* weibo_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 2614360D273274BF00B355F8 /* weibo_1.json */; };
+		26143625273274BF00B355F8 /* weibo_0.json in Resources */ = {isa = PBXBuildFile; fileRef = 2614360E273274BF00B355F8 /* weibo_0.json */; };
+		26143626273274BF00B355F8 /* WBStatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 26143611273274BF00B355F8 /* WBStatusCell.m */; };
+		26143627273274BF00B355F8 /* WBStatusLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 26143612273274BF00B355F8 /* WBStatusLayout.m */; };
+		26143628273274BF00B355F8 /* WBStatusTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26143615273274BF00B355F8 /* WBStatusTimelineViewController.m */; };
+		26143629273274BF00B355F8 /* WBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26143617273274BF00B355F8 /* WBModel.m */; };
+		2614362A273274BF00B355F8 /* WBStatusHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2614361A273274BF00B355F8 /* WBStatusHelper.m */; };
 		ABDC320D1BEAFB870012A159 /* YYTextTagExample.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDC320C1BEAFB870012A159 /* YYTextTagExample.m */; };
 		D9067DF11B975D3900F346EB /* YYTextExampleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D9067DF01B975D3900F346EB /* YYTextExampleHelper.m */; };
 		D9067DF41B9813B500F346EB /* YYTextEditExample.m in Sources */ = {isa = PBXBuildFile; fileRef = D9067DF31B9813B500F346EB /* YYTextEditExample.m */; };
@@ -24,12 +40,7 @@
 		D9067DFD1B986D6F00F346EB /* YYTextBindingExample.m in Sources */ = {isa = PBXBuildFile; fileRef = D9067DFC1B986D6F00F346EB /* YYTextBindingExample.m */; };
 		D9067E001B9879E300F346EB /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9067DFF1B9879E300F346EB /* YYFPSLabel.m */; };
 		D9067E031B987CF000F346EB /* YYTextAsyncExample.m in Sources */ = {isa = PBXBuildFile; fileRef = D9067E021B987CF000F346EB /* YYTextAsyncExample.m */; };
-		D9067E0A1B98AAA000F346EB /* WBStatusTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9067E091B98AAA000F346EB /* WBStatusTimelineViewController.m */; };
-		D9067E1A1B98B6AE00F346EB /* WBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9067E191B98B6AE00F346EB /* WBModel.m */; };
-		D9067E201B9A0B8F00F346EB /* WBStatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9067E1F1B9A0B8F00F346EB /* WBStatusCell.m */; };
-		D9067E231B9A0B9D00F346EB /* WBStatusLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D9067E221B9A0B9D00F346EB /* WBStatusLayout.m */; };
 		D9067E371B9AD7AD00F346EB /* ResourceWeibo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D9067E361B9AD7AC00F346EB /* ResourceWeibo.bundle */; };
-		D9067E3A1B9AF7B300F346EB /* WBStatusHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D9067E391B9AF7B300F346EB /* WBStatusHelper.m */; };
 		D90F521F1B78537600C9B465 /* YYImageBenchmark.m in Sources */ = {isa = PBXBuildFile; fileRef = D90F521E1B78537600C9B465 /* YYImageBenchmark.m */; };
 		D90F52241B7860E800C9B465 /* pia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D90F52211B7860E800C9B465 /* pia@2x.png */; };
 		D91A993E1B5A8DC200EF3A3E /* YYModelExample.m in Sources */ = {isa = PBXBuildFile; fileRef = D91A993D1B5A8DC200EF3A3E /* YYModelExample.m */; };
@@ -40,8 +51,6 @@
 		D91A995E1B5ADA3900EF3A3E /* google@2x.webp in Resources */ = {isa = PBXBuildFile; fileRef = D91A995C1B5AD95900EF3A3E /* google@2x.webp */; };
 		D91A995F1B5ADA3900EF3A3E /* nyancat@2x.webp in Resources */ = {isa = PBXBuildFile; fileRef = D91A995D1B5AD95900EF3A3E /* nyancat@2x.webp */; };
 		D91A99721B5D2B4800EF3A3E /* YYImageExampleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D91A99711B5D2B4800EF3A3E /* YYImageExampleHelper.m */; };
-		D9237BCC1BC2BA650092A558 /* WBStatusComposeTextParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D9237BCB1BC2BA650092A558 /* WBStatusComposeTextParser.m */; };
-		D9237BCF1BC2E0A80092A558 /* WBEmoticonInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9237BCE1BC2E0A80092A558 /* WBEmoticonInputView.m */; };
 		D933C1621B7799A10065CDBB /* YYImageDisplayExample.m in Sources */ = {isa = PBXBuildFile; fileRef = D933C1611B7799A10065CDBB /* YYImageDisplayExample.m */; };
 		D933C16E1B779FE90065CDBB /* cube@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D933C16D1B779FE90065CDBB /* cube@2x.png */; };
 		D933C72B1B7E39EA0065CDBB /* ermilio_lossless.bpg in Resources */ = {isa = PBXBuildFile; fileRef = D933C72A1B7E39EA0065CDBB /* ermilio_lossless.bpg */; };
@@ -60,20 +69,11 @@
 		D939F74C1B7E0254003EEC6A /* ermilio.gif in Resources */ = {isa = PBXBuildFile; fileRef = D939F7451B7E0254003EEC6A /* ermilio.gif */; };
 		D939F74D1B7E0254003EEC6A /* ermilio.png in Resources */ = {isa = PBXBuildFile; fileRef = D939F7461B7E0254003EEC6A /* ermilio.png */; };
 		D943B48D19EC2BC100A9481E /* YYRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D943B48C19EC2BC100A9481E /* YYRootViewController.m */; };
-		D94C07D01B9ECD5F006299A2 /* WBStatusComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94C07CF1B9ECD5F006299A2 /* WBStatusComposeViewController.m */; };
 		D94D6D121BA323DA00852804 /* YYSimpleWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94D6D111BA323DA00852804 /* YYSimpleWebViewController.m */; };
 		D95340A21BA47D38004FDE84 /* YYTextCopyPasteExample.m in Sources */ = {isa = PBXBuildFile; fileRef = D95340A11BA47D38004FDE84 /* YYTextCopyPasteExample.m */; };
 		D95340A51BA47D6E004FDE84 /* YYTextUndoRedoExample.m in Sources */ = {isa = PBXBuildFile; fileRef = D95340A41BA47D6E004FDE84 /* YYTextUndoRedoExample.m */; };
 		D96E58E81B7F885D004B8B45 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96E58E71B7F885D004B8B45 /* AssetsLibrary.framework */; };
 		D9700CC91BC680A000F878A4 /* YYPhotoGroupView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9700CC81BC680A000F878A4 /* YYPhotoGroupView.m */; };
-		D9700D921BC7C16900F878A4 /* weibo_6.json in Resources */ = {isa = PBXBuildFile; fileRef = D9700D8A1BC7C16900F878A4 /* weibo_6.json */; };
-		D9700D931BC7C16900F878A4 /* weibo_2.json in Resources */ = {isa = PBXBuildFile; fileRef = D9700D8B1BC7C16900F878A4 /* weibo_2.json */; };
-		D9700D941BC7C16900F878A4 /* weibo_4.json in Resources */ = {isa = PBXBuildFile; fileRef = D9700D8C1BC7C16900F878A4 /* weibo_4.json */; };
-		D9700D951BC7C16900F878A4 /* weibo_5.json in Resources */ = {isa = PBXBuildFile; fileRef = D9700D8D1BC7C16900F878A4 /* weibo_5.json */; };
-		D9700D961BC7C16900F878A4 /* weibo_1.json in Resources */ = {isa = PBXBuildFile; fileRef = D9700D8E1BC7C16900F878A4 /* weibo_1.json */; };
-		D9700D971BC7C16900F878A4 /* weibo_0.json in Resources */ = {isa = PBXBuildFile; fileRef = D9700D8F1BC7C16900F878A4 /* weibo_0.json */; };
-		D9700D981BC7C16900F878A4 /* weibo_3.json in Resources */ = {isa = PBXBuildFile; fileRef = D9700D901BC7C16900F878A4 /* weibo_3.json */; };
-		D9700D991BC7C16900F878A4 /* weibo_7.json in Resources */ = {isa = PBXBuildFile; fileRef = D9700D911BC7C16900F878A4 /* weibo_7.json */; };
 		D9700D9C1BC7D44500F878A4 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D9700D9B1BC7D44500F878A4 /* libz.tbd */; };
 		D9700D9E1BC7D44B00F878A4 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D9700D9D1BC7D44B00F878A4 /* libsqlite3.tbd */; };
 		D97484D619CAAD2900F46DE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D97484D519CAAD2900F46DE1 /* main.m */; };
@@ -209,6 +209,30 @@
 		261435F2273272EB00B355F8 /* T1Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = T1Model.h; sourceTree = "<group>"; };
 		261435F3273272EB00B355F8 /* T1Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = T1Helper.m; sourceTree = "<group>"; };
 		261435F4273272EB00B355F8 /* T1HomeTimelineItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = T1HomeTimelineItemsViewController.h; sourceTree = "<group>"; };
+		26143600273274BF00B355F8 /* WBEmoticonInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBEmoticonInputView.h; sourceTree = "<group>"; };
+		26143601273274BF00B355F8 /* WBStatusComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBStatusComposeViewController.h; sourceTree = "<group>"; };
+		26143602273274BF00B355F8 /* WBStatusComposeTextParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBStatusComposeTextParser.m; sourceTree = "<group>"; };
+		26143603273274BF00B355F8 /* WBStatusComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBStatusComposeViewController.m; sourceTree = "<group>"; };
+		26143604273274BF00B355F8 /* WBEmoticonInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBEmoticonInputView.m; sourceTree = "<group>"; };
+		26143605273274BF00B355F8 /* WBStatusComposeTextParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBStatusComposeTextParser.h; sourceTree = "<group>"; };
+		26143607273274BF00B355F8 /* weibo_3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_3.json; sourceTree = "<group>"; };
+		26143608273274BF00B355F8 /* weibo_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_2.json; sourceTree = "<group>"; };
+		26143609273274BF00B355F8 /* weibo_5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_5.json; sourceTree = "<group>"; };
+		2614360A273274BF00B355F8 /* weibo_4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_4.json; sourceTree = "<group>"; };
+		2614360B273274BF00B355F8 /* weibo_7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_7.json; sourceTree = "<group>"; };
+		2614360C273274BF00B355F8 /* weibo_6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_6.json; sourceTree = "<group>"; };
+		2614360D273274BF00B355F8 /* weibo_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_1.json; sourceTree = "<group>"; };
+		2614360E273274BF00B355F8 /* weibo_0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_0.json; sourceTree = "<group>"; };
+		26143610273274BF00B355F8 /* WBStatusTimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBStatusTimelineViewController.h; sourceTree = "<group>"; };
+		26143611273274BF00B355F8 /* WBStatusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBStatusCell.m; sourceTree = "<group>"; };
+		26143612273274BF00B355F8 /* WBStatusLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBStatusLayout.m; sourceTree = "<group>"; };
+		26143613273274BF00B355F8 /* WBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBModel.h; sourceTree = "<group>"; };
+		26143614273274BF00B355F8 /* WBStatusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBStatusCell.h; sourceTree = "<group>"; };
+		26143615273274BF00B355F8 /* WBStatusTimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBStatusTimelineViewController.m; sourceTree = "<group>"; };
+		26143616273274BF00B355F8 /* WBStatusLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBStatusLayout.h; sourceTree = "<group>"; };
+		26143617273274BF00B355F8 /* WBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBModel.m; sourceTree = "<group>"; };
+		26143619273274BF00B355F8 /* WBStatusHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBStatusHelper.h; sourceTree = "<group>"; };
+		2614361A273274BF00B355F8 /* WBStatusHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBStatusHelper.m; sourceTree = "<group>"; };
 		ABDC320B1BEAFB870012A159 /* YYTextTagExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextTagExample.h; sourceTree = "<group>"; };
 		ABDC320C1BEAFB870012A159 /* YYTextTagExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextTagExample.m; sourceTree = "<group>"; };
 		D9067DEF1B975D3900F346EB /* YYTextExampleHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextExampleHelper.h; sourceTree = "<group>"; };
@@ -225,17 +249,7 @@
 		D9067DFF1B9879E300F346EB /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
 		D9067E011B987CF000F346EB /* YYTextAsyncExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextAsyncExample.h; sourceTree = "<group>"; };
 		D9067E021B987CF000F346EB /* YYTextAsyncExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextAsyncExample.m; sourceTree = "<group>"; };
-		D9067E081B98AAA000F346EB /* WBStatusTimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBStatusTimelineViewController.h; sourceTree = "<group>"; };
-		D9067E091B98AAA000F346EB /* WBStatusTimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBStatusTimelineViewController.m; sourceTree = "<group>"; };
-		D9067E181B98B6AE00F346EB /* WBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBModel.h; sourceTree = "<group>"; };
-		D9067E191B98B6AE00F346EB /* WBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBModel.m; sourceTree = "<group>"; };
-		D9067E1E1B9A0B8F00F346EB /* WBStatusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBStatusCell.h; sourceTree = "<group>"; };
-		D9067E1F1B9A0B8F00F346EB /* WBStatusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBStatusCell.m; sourceTree = "<group>"; };
-		D9067E211B9A0B9D00F346EB /* WBStatusLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBStatusLayout.h; sourceTree = "<group>"; };
-		D9067E221B9A0B9D00F346EB /* WBStatusLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBStatusLayout.m; sourceTree = "<group>"; };
 		D9067E361B9AD7AC00F346EB /* ResourceWeibo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ResourceWeibo.bundle; sourceTree = "<group>"; };
-		D9067E381B9AF7B300F346EB /* WBStatusHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBStatusHelper.h; sourceTree = "<group>"; };
-		D9067E391B9AF7B300F346EB /* WBStatusHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBStatusHelper.m; sourceTree = "<group>"; };
 		D90F521D1B78537600C9B465 /* YYImageBenchmark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYImageBenchmark.h; sourceTree = "<group>"; };
 		D90F521E1B78537600C9B465 /* YYImageBenchmark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYImageBenchmark.m; sourceTree = "<group>"; };
 		D90F52211B7860E800C9B465 /* pia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pia@2x.png"; sourceTree = "<group>"; };
@@ -252,10 +266,6 @@
 		D91A995D1B5AD95900EF3A3E /* nyancat@2x.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nyancat@2x.webp"; sourceTree = "<group>"; };
 		D91A99701B5D2B4800EF3A3E /* YYImageExampleHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYImageExampleHelper.h; sourceTree = "<group>"; };
 		D91A99711B5D2B4800EF3A3E /* YYImageExampleHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYImageExampleHelper.m; sourceTree = "<group>"; };
-		D9237BCA1BC2BA650092A558 /* WBStatusComposeTextParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBStatusComposeTextParser.h; sourceTree = "<group>"; };
-		D9237BCB1BC2BA650092A558 /* WBStatusComposeTextParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBStatusComposeTextParser.m; sourceTree = "<group>"; };
-		D9237BCD1BC2E0A80092A558 /* WBEmoticonInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBEmoticonInputView.h; sourceTree = "<group>"; };
-		D9237BCE1BC2E0A80092A558 /* WBEmoticonInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBEmoticonInputView.m; sourceTree = "<group>"; };
 		D933C1601B7799A10065CDBB /* YYImageDisplayExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYImageDisplayExample.h; sourceTree = "<group>"; };
 		D933C1611B7799A10065CDBB /* YYImageDisplayExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYImageDisplayExample.m; sourceTree = "<group>"; };
 		D933C16D1B779FE90065CDBB /* cube@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cube@2x.png"; sourceTree = "<group>"; };
@@ -279,8 +289,6 @@
 		D939F7461B7E0254003EEC6A /* ermilio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ermilio.png; sourceTree = "<group>"; };
 		D943B48B19EC2BC100A9481E /* YYRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYRootViewController.h; sourceTree = "<group>"; };
 		D943B48C19EC2BC100A9481E /* YYRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYRootViewController.m; sourceTree = "<group>"; };
-		D94C07CE1B9ECD5F006299A2 /* WBStatusComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBStatusComposeViewController.h; sourceTree = "<group>"; };
-		D94C07CF1B9ECD5F006299A2 /* WBStatusComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBStatusComposeViewController.m; sourceTree = "<group>"; };
 		D94D6D101BA323DA00852804 /* YYSimpleWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSimpleWebViewController.h; sourceTree = "<group>"; };
 		D94D6D111BA323DA00852804 /* YYSimpleWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYSimpleWebViewController.m; sourceTree = "<group>"; };
 		D95340A01BA47D38004FDE84 /* YYTextCopyPasteExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextCopyPasteExample.h; sourceTree = "<group>"; };
@@ -290,14 +298,6 @@
 		D96E58E71B7F885D004B8B45 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		D9700CC71BC680A000F878A4 /* YYPhotoGroupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYPhotoGroupView.h; sourceTree = "<group>"; };
 		D9700CC81BC680A000F878A4 /* YYPhotoGroupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYPhotoGroupView.m; sourceTree = "<group>"; };
-		D9700D8A1BC7C16900F878A4 /* weibo_6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_6.json; sourceTree = "<group>"; };
-		D9700D8B1BC7C16900F878A4 /* weibo_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_2.json; sourceTree = "<group>"; };
-		D9700D8C1BC7C16900F878A4 /* weibo_4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_4.json; sourceTree = "<group>"; };
-		D9700D8D1BC7C16900F878A4 /* weibo_5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_5.json; sourceTree = "<group>"; };
-		D9700D8E1BC7C16900F878A4 /* weibo_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_1.json; sourceTree = "<group>"; };
-		D9700D8F1BC7C16900F878A4 /* weibo_0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_0.json; sourceTree = "<group>"; };
-		D9700D901BC7C16900F878A4 /* weibo_3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_3.json; sourceTree = "<group>"; };
-		D9700D911BC7C16900F878A4 /* weibo_7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_7.json; sourceTree = "<group>"; };
 		D9700D9B1BC7D44500F878A4 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		D9700D9D1BC7D44B00F878A4 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		D97484D019CAAD2900F46DE1 /* YYKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -568,23 +568,67 @@
 			path = "API Dump";
 			sourceTree = "<group>";
 		};
-		D9067E041B98A39200F346EB /* Feed List */ = {
+		261435FE273274BF00B355F8 /* Weibo */ = {
 			isa = PBXGroup;
 			children = (
-				D9067E0E1B98AAC100F346EB /* Weibo */,
+				261435FF273274BF00B355F8 /* Compose */,
+				26143606273274BF00B355F8 /* API Dump */,
+				2614360F273274BF00B355F8 /* TimeLine */,
+				26143618273274BF00B355F8 /* Helper */,
 			);
-			name = "Feed List";
+			path = Weibo;
 			sourceTree = "<group>";
 		};
-		D9067E0E1B98AAC100F346EB /* Weibo */ = {
+		261435FF273274BF00B355F8 /* Compose */ = {
 			isa = PBXGroup;
 			children = (
-				D9700DA21BC9131100F878A4 /* Timeline */,
-				D9700DA31BC9131E00F878A4 /* Compose */,
-				D9700DA41BC9132800F878A4 /* Helper */,
-				D9700D9A1BC7C16E00F878A4 /* API Dump */,
+				26143600273274BF00B355F8 /* WBEmoticonInputView.h */,
+				26143601273274BF00B355F8 /* WBStatusComposeViewController.h */,
+				26143602273274BF00B355F8 /* WBStatusComposeTextParser.m */,
+				26143603273274BF00B355F8 /* WBStatusComposeViewController.m */,
+				26143604273274BF00B355F8 /* WBEmoticonInputView.m */,
+				26143605273274BF00B355F8 /* WBStatusComposeTextParser.h */,
 			);
-			name = Weibo;
+			path = Compose;
+			sourceTree = "<group>";
+		};
+		26143606273274BF00B355F8 /* API Dump */ = {
+			isa = PBXGroup;
+			children = (
+				26143607273274BF00B355F8 /* weibo_3.json */,
+				26143608273274BF00B355F8 /* weibo_2.json */,
+				26143609273274BF00B355F8 /* weibo_5.json */,
+				2614360A273274BF00B355F8 /* weibo_4.json */,
+				2614360B273274BF00B355F8 /* weibo_7.json */,
+				2614360C273274BF00B355F8 /* weibo_6.json */,
+				2614360D273274BF00B355F8 /* weibo_1.json */,
+				2614360E273274BF00B355F8 /* weibo_0.json */,
+			);
+			path = "API Dump";
+			sourceTree = "<group>";
+		};
+		2614360F273274BF00B355F8 /* TimeLine */ = {
+			isa = PBXGroup;
+			children = (
+				26143610273274BF00B355F8 /* WBStatusTimelineViewController.h */,
+				26143611273274BF00B355F8 /* WBStatusCell.m */,
+				26143612273274BF00B355F8 /* WBStatusLayout.m */,
+				26143613273274BF00B355F8 /* WBModel.h */,
+				26143614273274BF00B355F8 /* WBStatusCell.h */,
+				26143615273274BF00B355F8 /* WBStatusTimelineViewController.m */,
+				26143616273274BF00B355F8 /* WBStatusLayout.h */,
+				26143617273274BF00B355F8 /* WBModel.m */,
+			);
+			path = TimeLine;
+			sourceTree = "<group>";
+		};
+		26143618273274BF00B355F8 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				26143619273274BF00B355F8 /* WBStatusHelper.h */,
+				2614361A273274BF00B355F8 /* WBStatusHelper.m */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		D90F52361B7896E000C9B465 /* Compare */ = {
@@ -725,58 +769,6 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		D9700D9A1BC7C16E00F878A4 /* API Dump */ = {
-			isa = PBXGroup;
-			children = (
-				D9700D8F1BC7C16900F878A4 /* weibo_0.json */,
-				D9700D8E1BC7C16900F878A4 /* weibo_1.json */,
-				D9700D8B1BC7C16900F878A4 /* weibo_2.json */,
-				D9700D901BC7C16900F878A4 /* weibo_3.json */,
-				D9700D8C1BC7C16900F878A4 /* weibo_4.json */,
-				D9700D8D1BC7C16900F878A4 /* weibo_5.json */,
-				D9700D8A1BC7C16900F878A4 /* weibo_6.json */,
-				D9700D911BC7C16900F878A4 /* weibo_7.json */,
-			);
-			name = "API Dump";
-			sourceTree = "<group>";
-		};
-		D9700DA21BC9131100F878A4 /* Timeline */ = {
-			isa = PBXGroup;
-			children = (
-				D9067E081B98AAA000F346EB /* WBStatusTimelineViewController.h */,
-				D9067E091B98AAA000F346EB /* WBStatusTimelineViewController.m */,
-				D9067E211B9A0B9D00F346EB /* WBStatusLayout.h */,
-				D9067E221B9A0B9D00F346EB /* WBStatusLayout.m */,
-				D9067E1E1B9A0B8F00F346EB /* WBStatusCell.h */,
-				D9067E1F1B9A0B8F00F346EB /* WBStatusCell.m */,
-				D9067E181B98B6AE00F346EB /* WBModel.h */,
-				D9067E191B98B6AE00F346EB /* WBModel.m */,
-			);
-			name = Timeline;
-			sourceTree = "<group>";
-		};
-		D9700DA31BC9131E00F878A4 /* Compose */ = {
-			isa = PBXGroup;
-			children = (
-				D94C07CE1B9ECD5F006299A2 /* WBStatusComposeViewController.h */,
-				D94C07CF1B9ECD5F006299A2 /* WBStatusComposeViewController.m */,
-				D9237BCD1BC2E0A80092A558 /* WBEmoticonInputView.h */,
-				D9237BCE1BC2E0A80092A558 /* WBEmoticonInputView.m */,
-				D9237BCA1BC2BA650092A558 /* WBStatusComposeTextParser.h */,
-				D9237BCB1BC2BA650092A558 /* WBStatusComposeTextParser.m */,
-			);
-			name = Compose;
-			sourceTree = "<group>";
-		};
-		D9700DA41BC9132800F878A4 /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				D9067E381B9AF7B300F346EB /* WBStatusHelper.h */,
-				D9067E391B9AF7B300F346EB /* WBStatusHelper.m */,
-			);
-			name = Helper;
-			sourceTree = "<group>";
-		};
 		D97484C719CAAD2900F46DE1 = {
 			isa = PBXGroup;
 			children = (
@@ -798,6 +790,7 @@
 		D97484D219CAAD2900F46DE1 /* YYKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				261435FE273274BF00B355F8 /* Weibo */,
 				261435E5273272EB00B355F8 /* Twitter */,
 				D97484D719CAAD2900F46DE1 /* YYAppDelegate.h */,
 				D97484D819CAAD2900F46DE1 /* YYAppDelegate.m */,
@@ -807,7 +800,6 @@
 				D91A99331B5A8D2A00EF3A3E /* Image */,
 				D91A99341B5A8D3500EF3A3E /* Text */,
 				D9387D441C7CBC8B00717477 /* Utility */,
-				D9067E041B98A39200F346EB /* Feed List */,
 				D91A99351B5A8D3D00EF3A3E /* Other */,
 				D943B49119EC316300A9481E /* Resources */,
 				D97484D319CAAD2900F46DE1 /* Supporting Files */,
@@ -1175,42 +1167,42 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26143622273274BF00B355F8 /* weibo_7.json in Resources */,
 				D939F74A1B7E0254003EEC6A /* ermilio_q85.webp in Resources */,
 				D9971BB61B85023300A7B424 /* EmoticonQQ.bundle in Resources */,
+				26143620273274BF00B355F8 /* weibo_5.json in Resources */,
 				D9067E371B9AD7AD00F346EB /* ResourceWeibo.bundle in Resources */,
 				D939F74B1B7E0254003EEC6A /* ermilio_q90.webp in Resources */,
-				D9700D981BC7C16900F878A4 /* weibo_3.json in Resources */,
 				D91A995E1B5ADA3900EF3A3E /* google@2x.webp in Resources */,
-				D9700D921BC7C16900F878A4 /* weibo_6.json in Resources */,
 				D98193431BCAD3EF00BA0604 /* ResourceTwitter.bundle in Resources */,
+				26143621273274BF00B355F8 /* weibo_4.json in Resources */,
 				D939F5E11B7CB044003EEC6A /* dribbble64_imageio.png in Resources */,
 				D98193291BC8067C00BA0604 /* Weibo@3x.jpg in Resources */,
 				D91A995F1B5ADA3900EF3A3E /* nyancat@2x.webp in Resources */,
 				D939F7471B7E0254003EEC6A /* ermilio_lossless.webp in Resources */,
-				D9700D951BC7C16900F878A4 /* weibo_5.json in Resources */,
 				261435FB273272EB00B355F8 /* twitter_2.json in Resources */,
-				D9700D991BC7C16900F878A4 /* weibo_7.json in Resources */,
 				D9CC99EF1B8B53A400A9466D /* wall-e@2x.webp in Resources */,
 				D9CC99F91B8B568B00A9466D /* mew_interlaced.gif in Resources */,
 				D939F74C1B7E0254003EEC6A /* ermilio.gif in Resources */,
 				261435FA273272EB00B355F8 /* twitter_3.json in Resources */,
 				D939F7491B7E0254003EEC6A /* ermilio_q20.bpg in Resources */,
+				2614361E273274BF00B355F8 /* weibo_3.json in Resources */,
 				D98193281BC8067C00BA0604 /* Twitter@3x.jpg in Resources */,
 				D9CC99FB1B8B568B00A9466D /* mew_baseline.png in Resources */,
+				26143624273274BF00B355F8 /* weibo_1.json in Resources */,
+				26143625273274BF00B355F8 /* weibo_0.json in Resources */,
 				D933C72B1B7E39EA0065CDBB /* ermilio_lossless.bpg in Resources */,
-				D9700D961BC7C16900F878A4 /* weibo_1.json in Resources */,
 				D933C16E1B779FE90065CDBB /* cube@2x.png in Resources */,
-				D9700D931BC7C16900F878A4 /* weibo_2.json in Resources */,
 				D9CC99F81B8B568B00A9466D /* mew_baseline.jpg in Resources */,
+				26143623273274BF00B355F8 /* weibo_6.json in Resources */,
 				261435F8273272EB00B355F8 /* twitter_1.json in Resources */,
-				D9700D941BC7C16900F878A4 /* weibo_4.json in Resources */,
 				D939F7481B7E0254003EEC6A /* ermilio_q15.bpg in Resources */,
 				D90F52241B7860E800C9B465 /* pia@2x.png in Resources */,
 				D939F74D1B7E0254003EEC6A /* ermilio.png in Resources */,
 				D939F5E51B7CB04D003EEC6A /* dribbble256_imageio.png in Resources */,
-				D9700D971BC7C16900F878A4 /* weibo_0.json in Resources */,
 				D9971BB51B85023300A7B424 /* EmoticonWeibo.bundle in Resources */,
 				D97484E419CAAD2900F46DE1 /* LaunchScreen.xib in Resources */,
+				2614361F273274BF00B355F8 /* weibo_2.json in Resources */,
 				D91A995B1B5ACF2A00EF3A3E /* niconiconi@2x.gif in Resources */,
 				D939F5E31B7CB04A003EEC6A /* dribbble128_imageio.png in Resources */,
 				261435F9273272EB00B355F8 /* twitter_0.json in Resources */,
@@ -1236,11 +1228,12 @@
 				261435FC273272EB00B355F8 /* T1StatusLayout.m in Sources */,
 				261435F5273272EB00B355F8 /* T1StatusCell.m in Sources */,
 				D9067E001B9879E300F346EB /* YYFPSLabel.m in Sources */,
+				26143628273274BF00B355F8 /* WBStatusTimelineViewController.m in Sources */,
 				D9B260511BEE79370038C00A /* NSBundle+YYAdd.m in Sources */,
-				D9067E231B9A0B9D00F346EB /* WBStatusLayout.m in Sources */,
 				D94D6D121BA323DA00852804 /* YYSimpleWebViewController.m in Sources */,
 				D9B2606B1BEE79370038C00A /* UITableView+YYAdd.m in Sources */,
 				D9387D471C7CBCAF00717477 /* YYUtilityExample.m in Sources */,
+				2614361B273274BF00B355F8 /* WBStatusComposeTextParser.m in Sources */,
 				D9B2606A1BEE79370038C00A /* UIScrollView+YYAdd.m in Sources */,
 				D91A99721B5D2B4800EF3A3E /* YYImageExampleHelper.m in Sources */,
 				D9B260861BEE79370038C00A /* YYTextLayout.m in Sources */,
@@ -1255,19 +1248,21 @@
 				D9B260671BEE79370038C00A /* UIGestureRecognizer+YYAdd.m in Sources */,
 				D9B260681BEE79370038C00A /* UIImage+YYAdd.m in Sources */,
 				D9067DF11B975D3900F346EB /* YYTextExampleHelper.m in Sources */,
+				2614361D273274BF00B355F8 /* WBEmoticonInputView.m in Sources */,
 				D9971BB01B84D55A00A7B424 /* YYTextAttributeExample.m in Sources */,
 				D9B260A01BEE79370038C00A /* YYWeakProxy.m in Sources */,
 				D9B260951BEE79370038C00A /* YYAsyncLayer.m in Sources */,
 				D9B260691BEE79370038C00A /* UIScreen+YYAdd.m in Sources */,
 				D9B2607F1BEE79370038C00A /* NSObject+YYModel.m in Sources */,
 				D9B2608E1BEE79370038C00A /* YYTextAttribute.m in Sources */,
+				26143627273274BF00B355F8 /* WBStatusLayout.m in Sources */,
 				D9B2605A1BEE79370038C00A /* NSObject+YYAddForKVO.m in Sources */,
 				D9B260601BEE79370038C00A /* UIApplication+YYAdd.m in Sources */,
 				D97FC1131BA191C800E7ECBF /* YYTableViewCell.m in Sources */,
 				D9067DF41B9813B500F346EB /* YYTextEditExample.m in Sources */,
+				26143626273274BF00B355F8 /* WBStatusCell.m in Sources */,
 				D9B260881BEE79370038C00A /* YYTextMagnifier.m in Sources */,
 				D9B2606F1BEE79370038C00A /* YYDiskCache.m in Sources */,
-				D9237BCC1BC2BA650092A558 /* WBStatusComposeTextParser.m in Sources */,
 				D9B260501BEE79370038C00A /* NSArray+YYAdd.m in Sources */,
 				D9B260621BEE79370038C00A /* UIBezierPath+YYAdd.m in Sources */,
 				D9B2605E1BEE79370038C00A /* CALayer+YYAdd.m in Sources */,
@@ -1275,7 +1270,6 @@
 				D97484D919CAAD2900F46DE1 /* YYAppDelegate.m in Sources */,
 				D943B48D19EC2BC100A9481E /* YYRootViewController.m in Sources */,
 				D9CC99EB1B8B528300A9466D /* YYImageProgressiveExample.m in Sources */,
-				D9067E0A1B98AAA000F346EB /* WBStatusTimelineViewController.m in Sources */,
 				D9B260731BEE79370038C00A /* CALayer+YYWebImage.m in Sources */,
 				D9B260571BEE79370038C00A /* NSNumber+YYAdd.m in Sources */,
 				D9B260641BEE79370038C00A /* UIControl+YYAdd.m in Sources */,
@@ -1287,7 +1281,6 @@
 				D9B260741BEE79370038C00A /* MKAnnotationView+YYWebImage.m in Sources */,
 				D991962A1BA71AD80071C80E /* YYControl.m in Sources */,
 				D9B260901BEE79370038C00A /* YYTextRubyAnnotation.m in Sources */,
-				D9067E3A1B9AF7B300F346EB /* WBStatusHelper.m in Sources */,
 				D9B2607C1BEE79370038C00A /* YYSpriteSheetImage.m in Sources */,
 				D9B2607B1BEE79370038C00A /* YYImageCoder.m in Sources */,
 				D9B260801BEE79370038C00A /* YYClassInfo.m in Sources */,
@@ -1300,7 +1293,6 @@
 				D9B2606C1BEE79370038C00A /* UITextField+YYAdd.m in Sources */,
 				D9B2607D1BEE79370038C00A /* YYWebImageManager.m in Sources */,
 				D9B2609F1BEE79370038C00A /* YYTransaction.m in Sources */,
-				D9067E1A1B98B6AE00F346EB /* WBModel.m in Sources */,
 				D9B260611BEE79370038C00A /* UIBarButtonItem+YYAdd.m in Sources */,
 				D9067DFA1B98637B00F346EB /* YYTextEmoticonExample.m in Sources */,
 				D90F521F1B78537600C9B465 /* YYImageBenchmark.m in Sources */,
@@ -1309,7 +1301,6 @@
 				D9B260531BEE79370038C00A /* NSDate+YYAdd.m in Sources */,
 				D9B260771BEE79370038C00A /* YYAnimatedImageView.m in Sources */,
 				D9B2608A1BEE79370038C00A /* NSAttributedString+YYText.m in Sources */,
-				D9067E201B9A0B8F00F346EB /* WBStatusCell.m in Sources */,
 				D981932C1BC8115600BA0604 /* YYTextRubyExample.m in Sources */,
 				D9B2608F1BEE79370038C00A /* YYTextParser.m in Sources */,
 				D933C1621B7799A10065CDBB /* YYImageDisplayExample.m in Sources */,
@@ -1325,6 +1316,7 @@
 				D9B2605C1BEE79370038C00A /* NSThread+YYAdd.m in Sources */,
 				D9B260991BEE79370038C00A /* YYKeychain.m in Sources */,
 				D9B2609D1BEE79370038C00A /* YYThreadSafeDictionary.m in Sources */,
+				26143629273274BF00B355F8 /* WBModel.m in Sources */,
 				D9B2609B1BEE79370038C00A /* YYSentinel.m in Sources */,
 				D9B2607E1BEE79370038C00A /* YYWebImageOperation.m in Sources */,
 				D9B2605B1BEE79370038C00A /* NSString+YYAdd.m in Sources */,
@@ -1340,17 +1332,17 @@
 				D9B260701BEE79370038C00A /* YYKVStorage.m in Sources */,
 				D9700CC91BC680A000F878A4 /* YYPhotoGroupView.m in Sources */,
 				D939F5DF1B7CA2CA003EEC6A /* YYBPGCoder.m in Sources */,
-				D9237BCF1BC2E0A80092A558 /* WBEmoticonInputView.m in Sources */,
 				D9B260721BEE79370038C00A /* _YYWebImageSetter.m in Sources */,
 				D9B260751BEE79370038C00A /* UIButton+YYWebImage.m in Sources */,
+				2614362A273274BF00B355F8 /* WBStatusHelper.m in Sources */,
 				D95340A21BA47D38004FDE84 /* YYTextCopyPasteExample.m in Sources */,
 				D9B260931BEE79370038C00A /* YYLabel.m in Sources */,
 				D9B260561BEE79370038C00A /* NSNotificationCenter+YYAdd.m in Sources */,
-				D94C07D01B9ECD5F006299A2 /* WBStatusComposeViewController.m in Sources */,
 				D9B260541BEE79370038C00A /* NSDictionary+YYAdd.m in Sources */,
 				D9B260811BEE79370038C00A /* YYTextContainerView.m in Sources */,
 				D9B260551BEE79370038C00A /* NSKeyedUnarchiver+YYAdd.m in Sources */,
 				261435F6273272EB00B355F8 /* T1Model.m in Sources */,
+				2614361C273274BF00B355F8 /* WBStatusComposeViewController.m in Sources */,
 				D9B260521BEE79370038C00A /* NSData+YYAdd.m in Sources */,
 				D9B260581BEE79370038C00A /* NSObject+YYAdd.m in Sources */,
 				D9B2606E1BEE79370038C00A /* YYCache.m in Sources */,
