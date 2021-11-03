@@ -34,7 +34,7 @@
     self.titles = @[].mutableCopy;
     self.classNames = @[].mutableCopy;
     //
-    
+    self.tableView.rowHeight = 80;
     
     //
     self.titles_x = @[].mutableCopy;
