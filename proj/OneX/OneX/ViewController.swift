@@ -14,7 +14,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        testQueue()
+        // testQueue()
+        
+        testQueueQuality()
     }
 
     
@@ -43,10 +45,40 @@ class ViewController: UIViewController {
         
     }
 
+    
+    
+    
+    func testQueueQuality(){
+        //  queue.maxConcurrentOperationCount = 10
+        queue.maxConcurrentOperationCount = 1
+        for i in 0...20{
+            let blockOp = BlockOperation {
+                print(i)
+            }
+            
+            //  if i % 2 == 1{
+            //  此时， 第一个调度的任务，先走
+            
+            if i % 2 == 1{
+                blockOp.qualityOfService = .background
+            }
+            else{
+                // 没啥影响
+                blockOp.qualityOfService = .userInitiated
+            }
+            queue.addOperation(blockOp)
+        }
+        
+        
+        
+    }
 }
 
 
 
 // 影响线程调度的因素，包含：
 
-// 优先级
+// 任务的优先级
+
+
+
