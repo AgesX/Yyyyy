@@ -49,7 +49,9 @@ static YYDispatchContext *YYDispatchContextCreate(const char *name,
                                                  NSQualityOfService qos) {
     YYDispatchContext *context = calloc(1, sizeof(YYDispatchContext));
     if (!context) return NULL;
-    context->queues =  calloc(queueCount, sizeof(void *));
+    // 是队列数
+    // 不是线程数
+    context->queues = calloc(queueCount, sizeof(void *));
     if (!context->queues) {
         free(context);
         return NULL;
@@ -100,6 +102,9 @@ static dispatch_queue_t YYDispatchContextGetQueue(YYDispatchContext *context) {
 
 
 
+
+
+
 // 没看到，什么区别
 static YYDispatchContext *YYDispatchContextGetForQOS(NSQualityOfService qos) {
     static YYDispatchContext *context[5] = {0};
@@ -107,6 +112,9 @@ static YYDispatchContext *YYDispatchContextGetForQOS(NSQualityOfService qos) {
         case NSQualityOfServiceUserInteractive: {
             static dispatch_once_t onceToken;
             dispatch_once(&onceToken, ^{
+                
+                // 与 CPU 激活的核心数，有关
+                
                 int count = (int)[NSProcessInfo processInfo].activeProcessorCount;
                 count = count < 1 ? 1 : count > MAX_QUEUE_COUNT ? MAX_QUEUE_COUNT : count;
                 context[0] = YYDispatchContextCreate("com.ibireme.yykit.user-interactive", count, qos);
