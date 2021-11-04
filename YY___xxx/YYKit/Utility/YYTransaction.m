@@ -19,10 +19,18 @@
 
 static NSMutableSet *transactionSet = nil;
 
+
+
+
+
+
 static void YYRunLoopObserverCallBack(CFRunLoopObserverRef observer, CFRunLoopActivity activity, void *info) {
     if (transactionSet.count == 0) return;
     NSSet *currentSet = transactionSet;
     transactionSet = [NSMutableSet new];
+    
+    // 事件分发， run loop 空闲的时候，处理我们的任务
+    
     [currentSet enumerateObjectsUsingBlock:^(YYTransaction *transaction, BOOL *stop) {
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Warc-performSelector-leaks"
@@ -31,12 +39,25 @@ static void YYRunLoopObserverCallBack(CFRunLoopObserverRef observer, CFRunLoopAc
     }];
 }
 
+
+
+
+
+
+
 static void YYTransactionSetup() {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         transactionSet = [NSMutableSet new];
         CFRunLoopRef runloop = CFRunLoopGetMain();
         CFRunLoopObserverRef observer;
+        
+        //  注册了一个 runloop
+        
+        
+        //   kCFRunLoopBeforeWaiting | kCFRunLoopExit
+        
+        //   如果空闲了， 就唤醒他来，回调处理
         
         observer = CFRunLoopObserverCreate(CFAllocatorGetDefault(),
                                            kCFRunLoopBeforeWaiting | kCFRunLoopExit,
@@ -47,6 +68,9 @@ static void YYTransactionSetup() {
         CFRelease(observer);
     });
 }
+
+
+
 
 
 @implementation YYTransaction
