@@ -138,11 +138,24 @@ static dispatch_queue_t YYAsyncLayerGetReleaseQueue() {
         
         // 异步绘制
         if (task.willDisplay) task.willDisplay(self);
+        
+        
+        
+        // 哨兵计数器， 标识当前的绘制任务
+        
+        
         YYSentinel *sentinel = _sentinel;
         int32_t value = sentinel.value;
-        BOOL (^isCancelled)(void) = ^BOOL() {
+        
+        //  取消绘制的标识
+        //  判断，丢弃之前的绘制任务
+        BOOL (^isCancelled)(void) = ^BOOL(){
             return value != sentinel.value;
         };
+        
+        
+        
+        
         CGSize size = self.bounds.size;
         BOOL opaque = self.opaque;
         CGFloat scale = self.contentsScale;
