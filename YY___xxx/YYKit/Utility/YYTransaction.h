@@ -16,6 +16,12 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  YYTransaction let you perform a selector once before current runloop sleep.
  */
+
+
+
+// 跟 CATransaction ,    没有关系
+
+
 @interface YYTransaction : NSObject
 
 /**

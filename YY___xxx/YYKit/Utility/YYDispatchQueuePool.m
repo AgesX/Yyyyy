@@ -99,6 +99,8 @@ static dispatch_queue_t YYDispatchContextGetQueue(YYDispatchContext *context) {
 }
 
 
+
+// 没看到，什么区别
 static YYDispatchContext *YYDispatchContextGetForQOS(NSQualityOfService qos) {
     static YYDispatchContext *context[5] = {0};
     switch (qos) {
@@ -184,6 +186,12 @@ static YYDispatchContext *YYDispatchContextGetForQOS(NSQualityOfService qos) {
 - (dispatch_queue_t)queue {
     return YYDispatchContextGetQueue(_context);
 }
+
+
+
+
+// 根据服务质量，获取我们的线程数目
+
 
 + (instancetype)defaultPoolForQOS:(NSQualityOfService)qos {
     switch (qos) {

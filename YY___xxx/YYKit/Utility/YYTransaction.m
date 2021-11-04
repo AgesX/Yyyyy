@@ -21,7 +21,7 @@ static NSMutableSet *transactionSet = nil;
 
 
 
-
+// 有空闲，才加载
 
 
 static void YYRunLoopObserverCallBack(CFRunLoopObserverRef observer, CFRunLoopActivity activity, void *info) {
@@ -59,6 +59,7 @@ static void YYTransactionSetup() {
         
         //   如果空闲了， 就唤醒他来，回调处理
         
+        //   当前的耗时任务，在 run loop 空闲的时候，处理
         observer = CFRunLoopObserverCreate(CFAllocatorGetDefault(),
                                            kCFRunLoopBeforeWaiting | kCFRunLoopExit,
                                            true,      // repeat
