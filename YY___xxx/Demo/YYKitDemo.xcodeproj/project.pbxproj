@@ -27,13 +27,13 @@
 		26143623273274BF00B355F8 /* weibo_6.json in Resources */ = {isa = PBXBuildFile; fileRef = 2614360C273274BF00B355F8 /* weibo_6.json */; };
 		26143624273274BF00B355F8 /* weibo_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 2614360D273274BF00B355F8 /* weibo_1.json */; };
 		26143625273274BF00B355F8 /* weibo_0.json in Resources */ = {isa = PBXBuildFile; fileRef = 2614360E273274BF00B355F8 /* weibo_0.json */; };
-		26143626273274BF00B355F8 /* WBStatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 26143611273274BF00B355F8 /* WBStatusCell.m */; };
 		26143627273274BF00B355F8 /* WBStatusLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 26143612273274BF00B355F8 /* WBStatusLayout.m */; };
 		26143628273274BF00B355F8 /* WBStatusTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26143615273274BF00B355F8 /* WBStatusTimelineViewController.m */; };
 		26143629273274BF00B355F8 /* WBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26143617273274BF00B355F8 /* WBModel.m */; };
 		2614362A273274BF00B355F8 /* WBStatusHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2614361A273274BF00B355F8 /* WBStatusHelper.m */; };
 		2614362E273289A700B355F8 /* YYAsyncLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2614362D273289A700B355F8 /* YYAsyncLayer.m */; };
 		2614363227328D2B00B355F8 /* YYTextAttributeExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 2614363027328D2A00B355F8 /* YYTextAttributeExample.m */; };
+		26915AC2273382BE00C37C71 /* WBStatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 26915AC0273382BE00C37C71 /* WBStatusCell.m */; };
 		ABDC320D1BEAFB870012A159 /* YYTextTagExample.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDC320C1BEAFB870012A159 /* YYTextTagExample.m */; };
 		D9067DF11B975D3900F346EB /* YYTextExampleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D9067DF01B975D3900F346EB /* YYTextExampleHelper.m */; };
 		D9067DF41B9813B500F346EB /* YYTextEditExample.m in Sources */ = {isa = PBXBuildFile; fileRef = D9067DF31B9813B500F346EB /* YYTextEditExample.m */; };
@@ -224,10 +224,8 @@
 		2614360D273274BF00B355F8 /* weibo_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_1.json; sourceTree = "<group>"; };
 		2614360E273274BF00B355F8 /* weibo_0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_0.json; sourceTree = "<group>"; };
 		26143610273274BF00B355F8 /* WBStatusTimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBStatusTimelineViewController.h; sourceTree = "<group>"; };
-		26143611273274BF00B355F8 /* WBStatusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBStatusCell.m; sourceTree = "<group>"; };
 		26143612273274BF00B355F8 /* WBStatusLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBStatusLayout.m; sourceTree = "<group>"; };
 		26143613273274BF00B355F8 /* WBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBModel.h; sourceTree = "<group>"; };
-		26143614273274BF00B355F8 /* WBStatusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBStatusCell.h; sourceTree = "<group>"; };
 		26143615273274BF00B355F8 /* WBStatusTimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBStatusTimelineViewController.m; sourceTree = "<group>"; };
 		26143616273274BF00B355F8 /* WBStatusLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBStatusLayout.h; sourceTree = "<group>"; };
 		26143617273274BF00B355F8 /* WBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBModel.m; sourceTree = "<group>"; };
@@ -237,6 +235,8 @@
 		2614362D273289A700B355F8 /* YYAsyncLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYAsyncLayer.m; sourceTree = "<group>"; };
 		2614363027328D2A00B355F8 /* YYTextAttributeExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextAttributeExample.m; sourceTree = "<group>"; };
 		2614363127328D2A00B355F8 /* YYTextAttributeExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextAttributeExample.h; sourceTree = "<group>"; };
+		26915AC0273382BE00C37C71 /* WBStatusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBStatusCell.m; sourceTree = "<group>"; };
+		26915AC1273382BE00C37C71 /* WBStatusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBStatusCell.h; sourceTree = "<group>"; };
 		ABDC320B1BEAFB870012A159 /* YYTextTagExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextTagExample.h; sourceTree = "<group>"; };
 		ABDC320C1BEAFB870012A159 /* YYTextTagExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextTagExample.m; sourceTree = "<group>"; };
 		D9067DEF1B975D3900F346EB /* YYTextExampleHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextExampleHelper.h; sourceTree = "<group>"; };
@@ -571,6 +571,7 @@
 		261435FE273274BF00B355F8 /* Weibo */ = {
 			isa = PBXGroup;
 			children = (
+				26915ABF273382BE00C37C71 /* cell */,
 				261435FF273274BF00B355F8 /* Compose */,
 				26143606273274BF00B355F8 /* API Dump */,
 				2614360F273274BF00B355F8 /* TimeLine */,
@@ -611,10 +612,8 @@
 			isa = PBXGroup;
 			children = (
 				26143610273274BF00B355F8 /* WBStatusTimelineViewController.h */,
-				26143611273274BF00B355F8 /* WBStatusCell.m */,
 				26143612273274BF00B355F8 /* WBStatusLayout.m */,
 				26143613273274BF00B355F8 /* WBModel.h */,
-				26143614273274BF00B355F8 /* WBStatusCell.h */,
 				26143615273274BF00B355F8 /* WBStatusTimelineViewController.m */,
 				26143616273274BF00B355F8 /* WBStatusLayout.h */,
 				26143617273274BF00B355F8 /* WBModel.m */,
@@ -638,6 +637,15 @@
 				2614363127328D2A00B355F8 /* YYTextAttributeExample.h */,
 			);
 			path = TextOne;
+			sourceTree = "<group>";
+		};
+		26915ABF273382BE00C37C71 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				26915AC0273382BE00C37C71 /* WBStatusCell.m */,
+				26915AC1273382BE00C37C71 /* WBStatusCell.h */,
+			);
+			path = cell;
 			sourceTree = "<group>";
 		};
 		D90F52361B7896E000C9B465 /* Compare */ = {
@@ -1267,7 +1275,6 @@
 				D9B260601BEE79370038C00A /* UIApplication+YYAdd.m in Sources */,
 				D97FC1131BA191C800E7ECBF /* YYTableViewCell.m in Sources */,
 				D9067DF41B9813B500F346EB /* YYTextEditExample.m in Sources */,
-				26143626273274BF00B355F8 /* WBStatusCell.m in Sources */,
 				D9B260881BEE79370038C00A /* YYTextMagnifier.m in Sources */,
 				D9B2606F1BEE79370038C00A /* YYDiskCache.m in Sources */,
 				D9B260501BEE79370038C00A /* NSArray+YYAdd.m in Sources */,
@@ -1347,6 +1354,7 @@
 				D9B260931BEE79370038C00A /* YYLabel.m in Sources */,
 				D9B260561BEE79370038C00A /* NSNotificationCenter+YYAdd.m in Sources */,
 				D9B260541BEE79370038C00A /* NSDictionary+YYAdd.m in Sources */,
+				26915AC2273382BE00C37C71 /* WBStatusCell.m in Sources */,
 				D9B260811BEE79370038C00A /* YYTextContainerView.m in Sources */,
 				D9B260551BEE79370038C00A /* NSKeyedUnarchiver+YYAdd.m in Sources */,
 				261435F6273272EB00B355F8 /* T1Model.m in Sources */,
