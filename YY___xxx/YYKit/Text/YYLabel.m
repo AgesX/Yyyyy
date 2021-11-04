@@ -1087,6 +1087,8 @@ static dispatch_queue_t YYLabelGetReleaseQueue() {
     // create display task
     YYAsyncLayerDisplayTask *task = [YYAsyncLayerDisplayTask new];
     
+    // 三个任务
+    
     task.willDisplay = ^(CALayer *layer) {
         [layer removeAnimationForKey:@"contents"];
         
@@ -1139,6 +1141,8 @@ static dispatch_queue_t YYLabelGetReleaseQueue() {
             }
         }
         point = CGPointPixelRound(point);
+        
+        // 调用绘制方法
         [drawLayout drawInContext:context size:size point:point view:nil layer:nil debug:debug cancel:isCancelled];
     };
 

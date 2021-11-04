@@ -3328,6 +3328,11 @@ static void YYTextDrawDebug(YYTextLayout *layout, CGContextRef context, CGSize s
 }
 
 
+
+
+
+
+
 - (void)drawInContext:(CGContextRef)context
                  size:(CGSize)size
                 point:(CGPoint)point
@@ -3378,6 +3383,15 @@ static void YYTextDrawDebug(YYTextLayout *layout, CGContextRef context, CGSize s
         }
     }
 }
+
+
+
+
+
+
+
+
+
 
 - (void)drawInContext:(CGContextRef)context
                  size:(CGSize)size
