@@ -483,19 +483,19 @@
     }
     
     [UIView animateWithDuration:0.2 delay:0 options:UIViewAnimationOptionBeginFromCurrentState | UIViewAnimationOptionCurveEaseInOut animations:^{
-        _likeImageView.layer.transformScale = 1.7;
+        self->_likeImageView.layer.transformScale = 1.7;
     } completion:^(BOOL finished) {
         
-        _likeImageView.image = image;
-        _likeLabel.width = CGFloatPixelRound(textLayout.textBoundingRect.size.width);
-        _likeLabel.textLayout = layout.toolbarLikeTextLayout;
-        [self adjustImage:_likeImageView label:_likeLabel inButton:_likeButton];
+        self->_likeImageView.image = image;
+        self->_likeLabel.width = CGFloatPixelRound(textLayout.textBoundingRect.size.width);
+        self->_likeLabel.textLayout = layout.toolbarLikeTextLayout;
+        [self adjustImage: self->_likeImageView label: self->_likeLabel inButton: self->_likeButton];
         
         [UIView animateWithDuration:0.2 delay:0 options:UIViewAnimationOptionBeginFromCurrentState | UIViewAnimationOptionCurveEaseInOut animations:^{
-            _likeImageView.layer.transformScale = 0.9;
+            self->_likeImageView.layer.transformScale = 0.9;
         } completion:^(BOOL finished) {
             [UIView animateWithDuration:0.2 delay:0 options:UIViewAnimationOptionBeginFromCurrentState | UIViewAnimationOptionCurveEaseInOut animations:^{
-                _likeImageView.layer.transformScale = 1;
+                self->_likeImageView.layer.transformScale = 1;
             } completion:^(BOOL finished) {
             }];
         }];
