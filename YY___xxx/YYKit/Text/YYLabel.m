@@ -945,7 +945,7 @@ static dispatch_queue_t YYLabelGetReleaseQueue() {
     }
 }
 
-- (void)setLinePositionModifier:(id<YYTextLinePositionModifier>)linePositionModifier {
+-(void)setLinePositionModifier:(id<YYTextLinePositionModifier>)linePositionModifier{
     if (_linePositionModifier == linePositionModifier) return;
     _linePositionModifier = linePositionModifier;
     _innerContainer.linePositionModifier = linePositionModifier;
