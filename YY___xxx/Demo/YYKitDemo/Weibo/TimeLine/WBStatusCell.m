@@ -980,9 +980,6 @@
     return self;
 }
 
-- (void)prepareForReuse {
-    // ignore
-}
 
 - (void)setLayout:(WBStatusLayout *)layout {
     self.height = layout.height;

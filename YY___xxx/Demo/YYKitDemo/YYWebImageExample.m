@@ -102,10 +102,6 @@
                        }];
 }
 
-- (void)prepareForReuse {
-    //nothing
-}
-
 @end
 
 
