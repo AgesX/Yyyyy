@@ -107,6 +107,8 @@ static dispatch_queue_t YYAsyncLayerGetReleaseQueue() {
 // 子类重载，自定义绘制任务
 
 - (void)display {
+    
+    // 是否，开启异步绘制
     [self _displayAsync:_displaysAsynchronously];
 }
 
@@ -115,14 +117,26 @@ static dispatch_queue_t YYAsyncLayerGetReleaseQueue() {
 - (void)_displayAsync:(BOOL)async {
     __strong id<YYAsyncLayerDelegate> delegate = (id)self.delegate;
     YYAsyncLayerDisplayTask *task = [delegate newAsyncDisplayTask];
+    
+    
+    //  task.display， 是具体的绘制任务
+    
     if (!task.display) {
         if (task.willDisplay) task.willDisplay(self);
+        
+        // 清除，上一次绘制的结果
+        
         self.contents = nil;
         if (task.didDisplay) task.didDisplay(self, YES);
         return;
     }
     
+    
+    
+    
     if (async) {
+        
+        // 异步绘制
         if (task.willDisplay) task.willDisplay(self);
         YYSentinel *sentinel = _sentinel;
         int32_t value = sentinel.value;
