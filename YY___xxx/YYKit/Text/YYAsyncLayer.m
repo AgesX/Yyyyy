@@ -107,8 +107,6 @@ static dispatch_queue_t YYAsyncLayerGetReleaseQueue() {
 // 子类重载，自定义绘制任务
 
 - (void)display {
-//    疑惑之
- //   super.contents = super.contents;
     [self _displayAsync:_displaysAsynchronously];
 }
 
